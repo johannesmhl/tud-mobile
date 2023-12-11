@@ -22,15 +22,15 @@ class MyApp extends StatelessWidget {
         appBarTheme: const AppBarTheme(
           backgroundColor: Color(0xFF002557), // Change app bar background color
           titleTextStyle: TextStyle(
-            color: Colors.white, // Change app bar title text color
-            fontSize: 20, // Adjust title text size if needed
-            fontWeight: FontWeight.bold, // Apply font weight if desired
+            color: Colors.white,
+            fontSize: 20,
+            fontWeight: FontWeight.bold,
           ),
         ),
         elevatedButtonTheme: ElevatedButtonThemeData(
           style: ElevatedButton.styleFrom(
             foregroundColor: Colors.white,
-            primary:
+            backgroundColor:
                 const Color(0xFF002557), // Change ElevatedButton text color
           ),
         ),
