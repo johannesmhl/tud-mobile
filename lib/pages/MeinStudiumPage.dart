@@ -9,7 +9,7 @@ class MeinStudiumPage extends StatelessWidget {
       appBar: AppBar(
         title: const Text('Mein Studium'),
       ),
-      body: Center(
+      body: const Center(
         child: const Text('This is Page Two'),
       ),
     );

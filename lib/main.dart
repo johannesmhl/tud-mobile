@@ -38,7 +38,7 @@ class MyApp extends StatelessWidget {
       initialRoute: '/',
       routes: {
         '/': (context) => const MyHomePage(),
-        '/time-managment': (context) => const TimeManagmentPage(),
+        '/time-managment': (context) => const TimeManagementPage(),
         '/mein-studium': (context) => const MeinStudiumPage(),
         '/news': (context) => const NewsPage(),
         '/campus-navigator': (context) => const CampusNavigatorPage(),

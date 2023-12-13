@@ -9,7 +9,7 @@ class CampusNavigatorPage extends StatelessWidget {
       appBar: AppBar(
         title: const Text('Page Four'),
       ),
-      body: Center(
+      body: const Center(
         child: const Text('This is Page Four'),
       ),
     );

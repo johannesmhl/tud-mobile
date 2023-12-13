@@ -9,8 +9,8 @@ class NewsPage extends StatelessWidget {
       appBar: AppBar(
         title: const Text('Page Three'),
       ),
-      body: Center(
-        child: const Text('This is Page Three'),
+      body: const Center(
+        child: Text('This is Page Three'),
       ),
     );
   }
