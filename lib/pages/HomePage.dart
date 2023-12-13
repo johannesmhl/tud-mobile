@@ -13,7 +13,7 @@ class MyHomePage extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            buildClickableButton(context, 'Time Managment', '/time-managment'),
+            buildClickableButton(context, 'Mein Kalender', '/calendar'),
             buildClickableButton(context, 'Mein Studium', '/mein-studium'),
             buildClickableButton(context, 'Neuigkeiten', '/news'),
             buildClickableButton(

@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:tudmobile/pages/CalendarPage.dart';
 import 'package:tudmobile/pages/CampusNavigator.dart';
 import 'package:tudmobile/pages/HomePage.dart';
 import 'package:tudmobile/pages/MeinStudiumPage.dart';
 import 'package:tudmobile/pages/NewsPage.dart';
-import 'package:tudmobile/pages/TimeManagementPage.dart';
 
 void main() => runApp(const MyApp());
 
@@ -38,7 +38,7 @@ class MyApp extends StatelessWidget {
       initialRoute: '/',
       routes: {
         '/': (context) => const MyHomePage(),
-        '/time-managment': (context) => const TimeManagementPage(),
+        '/calendar': (context) => const CalendarPage(),
         '/mein-studium': (context) => const MeinStudiumPage(),
         '/news': (context) => const NewsPage(),
         '/campus-navigator': (context) => const CampusNavigatorPage(),

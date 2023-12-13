@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class TimeManagementPage extends StatefulWidget {
-  const TimeManagementPage({Key? key}) : super(key: key);
+class CalendarPage extends StatefulWidget {
+  const CalendarPage({Key? key}) : super(key: key);
 
   @override
-  TimeManagementPageState createState() => TimeManagementPageState();
+  CalendarPageState createState() => CalendarPageState();
 }
 
-class TimeManagementPageState extends State<TimeManagementPage> {
+class CalendarPageState extends State<CalendarPage> {
   late DateTime monday;
   late DateTime sunday;
 
@@ -39,9 +39,8 @@ class TimeManagementPageState extends State<TimeManagementPage> {
 
   Widget buildCalendarNavigation() {
     return Container(
-      padding: const EdgeInsets.all(8.0),
+      padding: const EdgeInsets.all(2.0),
       decoration: BoxDecoration(
-        border: Border.all(color: Colors.grey),
         borderRadius: BorderRadius.circular(4.0),
       ),
       child: Row(
@@ -127,7 +126,7 @@ class TimeManagementPageState extends State<TimeManagementPage> {
 
   Widget buildDayColumn(String day, List<String> events) {
     return Container(
-      padding: const EdgeInsets.all(8.0),
+      padding: const EdgeInsets.all(6.0),
       child: Column(
         children: [
           Text(day),
@@ -217,7 +216,7 @@ class TimeManagementPageState extends State<TimeManagementPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Time Management'),
+        title: const Text('Mein Kalender'),
       ),
       body: Center(
         child: SingleChildScrollView(
